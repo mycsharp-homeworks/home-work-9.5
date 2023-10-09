@@ -1,0 +1,9 @@
+C:\cSharp_HomeWorks\home-work-9.5\HomeWork-9.5\HomeWork-9.5\bin\Debug\HomeWork-9.5.exe.config
+C:\cSharp_HomeWorks\home-work-9.5\HomeWork-9.5\HomeWork-9.5\bin\Debug\HomeWork-9.5.exe
+C:\cSharp_HomeWorks\home-work-9.5\HomeWork-9.5\HomeWork-9.5\bin\Debug\HomeWork-9.5.pdb
+C:\cSharp_HomeWorks\home-work-9.5\HomeWork-9.5\HomeWork-9.5\obj\Debug\HomeWork-9.5.csproj.AssemblyReference.cache
+C:\cSharp_HomeWorks\home-work-9.5\HomeWork-9.5\HomeWork-9.5\obj\Debug\HomeWork_9._5.Properties.Resources.resources
+C:\cSharp_HomeWorks\home-work-9.5\HomeWork-9.5\HomeWork-9.5\obj\Debug\HomeWork-9.5.csproj.GenerateResource.cache
+C:\cSharp_HomeWorks\home-work-9.5\HomeWork-9.5\HomeWork-9.5\obj\Debug\HomeWork-9.5.csproj.CoreCompileInputs.cache
+C:\cSharp_HomeWorks\home-work-9.5\HomeWork-9.5\HomeWork-9.5\obj\Debug\HomeWork-9.5.exe
+C:\cSharp_HomeWorks\home-work-9.5\HomeWork-9.5\HomeWork-9.5\obj\Debug\HomeWork-9.5.pdb
