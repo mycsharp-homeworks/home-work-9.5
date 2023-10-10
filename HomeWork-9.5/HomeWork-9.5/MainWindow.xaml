@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HomeWork_9._5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
         
+        Title="MainWindow" 
+        Height="450" 
+        Width="800"
+        
+        MinHeight="450" 
+        MinWidth="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" 
+                 Name="TextToSplit"
+                 Margin="24,25,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="334" 
+                 Height="40"/>
+        <Button Content="Разделить" 
+                HorizontalAlignment="Left" 
+                Margin="156,85,0,0" 
+                VerticalAlignment="Top" 
+                Height="30" 
+                Width="70" Click="SplitButton_Click"/>
+        <ListBox Name="ListView"
+                 Margin="24,131,442,24"/>
+        <Button Content="Инвертировать" 
+            HorizontalAlignment="Left" 
+            Margin="556,85,0,0" 
+            VerticalAlignment="Top" 
+            Height="30" 
+            Width="94" Click="InversionButton_Click"/>
+        <Label Content="Ваш текст в обратном порядке" 
+               Name="InversionLabel"
+               HorizontalAlignment="Left" 
+               Margin="436,131,0,0" 
+               VerticalAlignment="Top" 
+               Height="279" 
+               Width="334"/>
+        <TextBox HorizontalAlignment="Left" 
+            x:Name="TextToInvert"
+            Margin="436,25,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="334" 
+            Height="40"/>
     </Grid>
 </Window>
