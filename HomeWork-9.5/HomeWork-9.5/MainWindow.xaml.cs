@@ -92,7 +92,8 @@ namespace HomeWork_9._5
                 if(i % 4 == 0 && i != words.Length - 1)
                 {
                     inversionResult += words[i] + " \n";
-                } else
+                } 
+                else
                 {
                     inversionResult += words[i] + " ";
                 }                
