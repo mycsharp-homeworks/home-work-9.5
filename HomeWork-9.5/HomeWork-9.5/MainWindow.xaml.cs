@@ -91,9 +91,11 @@ namespace HomeWork_9._5
             {
                 if(i % 4 == 0 && i != words.Length - 1)
                 {
-                    words[i] += "\n";
-                }
-                inversionResult += words[i] + " ";
+                    inversionResult += words[i] + " \n";
+                } else
+                {
+                    inversionResult += words[i] + " ";
+                }                
             }
 
             return inversionResult;
