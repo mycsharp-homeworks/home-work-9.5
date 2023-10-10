@@ -13,40 +13,56 @@
         MinHeight="450" 
         MinWidth="800">
     <Grid>
-        <TextBox HorizontalAlignment="Left" 
-                 Name="TextToSplit"
-                 Margin="24,25,0,0" 
-                 TextWrapping="Wrap" 
-                 VerticalAlignment="Top" 
-                 Width="334" 
-                 Height="40"/>
-        <Button Content="Разделить" 
-                HorizontalAlignment="Left" 
-                Margin="156,85,0,0" 
-                VerticalAlignment="Top" 
-                Height="30" 
-                Width="70" Click="SplitButton_Click"/>
-        <ListBox Name="ListView"
-                 Margin="24,131,442,24"/>
-        <Button Content="Инвертировать" 
+        <Label Content="Поле для ввода текста" 
             HorizontalAlignment="Left" 
-            Margin="556,85,0,0" 
-            VerticalAlignment="Top" 
-            Height="30" 
-            Width="94" Click="InversionButton_Click"/>
-        <Label Content="Ваш текст в обратном порядке" 
-               Name="InversionLabel"
-               HorizontalAlignment="Left" 
-               Margin="436,131,0,0" 
-               VerticalAlignment="Top" 
-               Height="279" 
-               Width="334"/>
+            Margin="124,14,0,0" 
+            VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" 
-            x:Name="TextToInvert"
-            Margin="436,25,0,0" 
+            Name="TextToSplit"
+            Margin="24,45,0,0" 
             TextWrapping="Wrap" 
             VerticalAlignment="Top" 
             Width="334" 
             Height="40"/>
+        <Button Content="Разделить" 
+            HorizontalAlignment="Left" 
+            Margin="156,99,0,0" 
+            VerticalAlignment="Top" 
+            Height="30" 
+            Width="70" Click="SplitButton_Click"/>
+        <Label Content="Ваш текст разделенный на слова" 
+            HorizontalAlignment="Left" 
+            Margin="94,146,0,0" 
+            VerticalAlignment="Top" 
+            Width="194"/>
+        <ListBox Name="ListView"
+            Margin="24,177,442,24"/>
+        <Label Content="Поле для ввода текста" 
+            HorizontalAlignment="Left" 
+            Margin="536,14,0,0" 
+            VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" 
+            x:Name="TextToInvert"
+            Margin="436,45,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="334" 
+            Height="40"/>
+        <Button Content="Инвертировать" 
+            HorizontalAlignment="Left" 
+            Margin="556,99,0,0" 
+            VerticalAlignment="Top" 
+            Height="30" 
+            Width="94" Click="InversionButton_Click"/>
+        <Label Content="Ваш текст в обратном порядке" 
+            HorizontalAlignment="Left" 
+            Margin="513,146,0,0" 
+            VerticalAlignment="Top"/>
+        <Label Name="InversionLabel"
+            HorizontalAlignment="Left" 
+            Margin="436,177,0,0" 
+            VerticalAlignment="Top" 
+            Height="233" 
+            Width="334"/>
     </Grid>
 </Window>
